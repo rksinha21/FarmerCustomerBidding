@@ -1,0 +1,144 @@
+body  {
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.Login{
+    width:1000px;
+    font-size : 20px;
+    margin-left: 130px;
+    text-align: center;
+    font-weight: 100;
+    position:relative;
+    display: inline-block;
+}
+.buttonHome {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top:10px;
+  right:30px;
+  width:8%;
+}
+
+.buttonHome1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.buttonHome1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row{
+  content: "";
+  width:1000px;
+  margin-left:130px;
+  /*display: inline-block;*/
+  display: table;
+  position: relative;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/*Login*/
+body {font-family: Arial, Helvetica, sans-serif;}
+/*form {border: 3px solid #f1f1f1;}*/
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.button {background-color: #008CBA;}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.regbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 16px;
+}
+
+.container2 {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.bordered {
+    padding: 20px;
+    border-width: 6px;
+    border-color: #4CAF50;
+    border-style: dotted dashed solid double;
+  }
+
+.bordered2{
+    padding: 20px;
+    border-width: 6px;
+    border-color: #008CBA;
+    border-style: dotted double solid dashed;
+}

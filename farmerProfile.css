@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+html {
+  font-size: 10px;
+  /* tap-highlight-color: rgba(0, 0, 0, 0); */
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 10;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  width:1200px;
+  background-color: #236934;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.8;
+}
+
+header,
+footer {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+body{
+  background-position: center;
+  background-image: url("pic.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+@media (max-width: 440px) {
+  header {
+    padding: 48px 24px;
+  }
+}
+header > h3 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 8px;
+    text-align: center;
+}
+header > h4 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+    text-align: center;
+}
+
+
+main {
+  flex: 1;
+  padding: 0 48px;
+}
+@media (max-width: 440px) {
+  main {
+    padding: 0 24px;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #064F17;
+  padding: 15px;
+  align-self: center;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.product{
+  display: inline;
+  margin-left:-50px;
+}
+
+.product2{
+  display: inline;
+  margin-left:50px;
+}
+
+.tx1 {
+  margin-top: 10px;
+  background-color: transparent;
+  width: 300px;
+  border: 5px black;
+  padding: 2px 64px;
+  margin: 2px;
+  font-weight: bold;
+  display: inline;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.tx2 {
+  margin-top: 30px;
+  background-color: transparent;
+  width: 230px;
+  border: 5px black;
+  padding: 2px 64px;
+  margin: 2px;
+  font-weight: bold;
+  display: inline;
+  display: inline-block;
+}
+
+.submit {
+  /*display: inline-block;*/
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 16px;
+  margin-top: 32px;
+  margin-left: 150px;
+  border: 2px solid #146628;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #146628;
+  transition: all ease .2s;
+  color: black;
+  width:200px;
+  margin-left:40%;
+}
+
+.submit:hover {
+  background-color: #064F17;
+  border: 2px solid black;
+}
+
+
+td {
+  /*border: 1px solid #dddddd;*/
+  text-align: left;
+  padding: 12px;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.det{
+  margin-left:40%;
+  /*margin-right:20%;*/
+  color: black;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: transparent;
+}
+
+table {
+  width: 1200%;
+}
+
+* {box-sizing:500px border-box;}
+

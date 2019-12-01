@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="login.js"></script>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="login.css">
+    <link rel="icon" href="farm.jpg" type="image/gif" >
+    <title>Log in to Farmer's Plot</title>
+</head>
+<body>
+    <button class="buttonHome buttonHome1" onclick="redirectHome()">Home</button>
+    <div class="Login" style="text-align:center">
+        <p><b>Please Login for bidding</b></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2>Login For Farmer</h2>
+            <form>
+
+                <div class="container bordered">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" id="Funame" placeholder="Enter Username" name="funame" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" id="Fpwd" placeholder="Enter Password" name="fpsd" required>
+
+                        <button onclick="redirectFarmerProduct()">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <button class="regbtn" onclick="redirectfarmerSignup()">Register</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="column">
+            <h2>Login For Customer</h2>
+            <form>
+                <div class="container2 bordered2">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" id="Cuname" placeholder="Enter Username" name="cuname" required>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" id="Cpwd" placeholder="Enter Password" name="cpsd" required>
+
+                        <button class="button" onclick="redirectCustomerProfile()">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                        <button type="button" class="regbtn" onclick="redirectcustomerSignup()">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

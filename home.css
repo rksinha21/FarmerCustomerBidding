@@ -1,0 +1,155 @@
+
+
+body  {
+  background-image: url("background.jpeg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+.TopHeader{
+    width:1000px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 100;
+    position: relative;
+    /*margin-left: 100px;*/
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.desc{
+    width=1000px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+}
+
+
+/*Slideshow*/
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slides{
+    width: 1000px;
+    position: relative;
+    display:none;
+    margin-left: 150px;
+    height:300px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/*Color change*/
+.center {
+  margin: 0 auto;
+}
+
+.awesome {
+  font-family: 'Allan';font-size: 42px;
+  margin-left: 50px;
+  -webkit-animation:colorchange 10s infinite alternate;
+    display: inline-block;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #d62d2d;
+  }
+  10% {
+    color: #8e44ad;
+  }
+  20% {
+    color: #1abc9c;
+  }
+  30% {
+    color: #d35400;
+  }
+  40% {
+    color: blue;
+  }
+  50% {
+    color: #34495e;
+  }
+  60% {
+    color: blue;
+  }
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+  90% {
+    color: #2980b9;
+  }
+  100% {
+    color: #000000;
+  }
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 25px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  border: 1px solid;
+  box-shadow: 5px 10px #888888;
+}
+
+a{
+    color:black;
+}

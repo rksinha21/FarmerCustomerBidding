@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>User Registration</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="farm.jpg" type="image/gif" >
+      <link rel="stylesheet" href="customerSignup.css">
+</head>
+
+<body>
+  <br/>
+  <div class="row">
+  <section class="section">
+    <header>
+      <h3>Register</h3>
+      <h4>Please fill your information in this form</h4>
+    </header>
+    <main>
+      <form>
+        <div class="form-item box-item">
+          <input type="text" name="name" class="tx1" id="name" placeholder="Name" data-required>
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+        </div>
+        <div class="form-item box-item">
+          <input type="email" name="email" class="tx1" id="email" placeholder="Email" data-email data-required>
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+          <small class="errorEmail"><i class="fa fa-asterisk" aria-hidden="true"></i> email is not valid</small>
+        </div>
+
+        <div class="form-item box-item">
+          <input type="text" name="phone" id="phone" placeholder="Phone" data-required data-number data-count="10">
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+          <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+          <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
+        </div>
+
+
+        <div class="form-item box-item">
+          <input type="Password" name="pws" class="tx1" id="pwd" placeholder="Password" data-required>
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+        </div>
+
+        <div class="form-item">
+          <span id="submit" class="submit" onclick="dataRetreival()">Submit</span>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </footer>
+    <i class="wave"></i>
+  </section>
+</div>
+<script src="customerSignup.js"></script>
+</body>
+
+</html>
