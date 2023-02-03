@@ -9,7 +9,7 @@
   "author": "satyam",
   "license": "ISC",
   "dependencies": {
-    "@angular/cli": "^8.3.18",
+    "@angular/cli": "^15.1.4",
     "aws-sdk": "^2.568.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
